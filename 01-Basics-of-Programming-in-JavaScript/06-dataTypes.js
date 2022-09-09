@@ -1,4 +1,4 @@
-// Topic 06: DataTypes
+// Topic 06: DataTypes 
 
 // Primitive data types
 // 1. string

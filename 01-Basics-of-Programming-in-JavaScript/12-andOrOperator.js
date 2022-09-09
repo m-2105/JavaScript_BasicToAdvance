@@ -1,4 +1,4 @@
-// Topic 12: AND OR Operator
+// Topic 12: AND OR Operator 
 // AND OR Operators are used to check multiple conditions at once
 let num1 = 18;
 let num2 = 10;

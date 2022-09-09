@@ -1,4 +1,4 @@
-// Topic 08: Comparison Operator
+// Topic 08: Comparison Operator 
 
 let num1 = 5;
 let num2 = "5";

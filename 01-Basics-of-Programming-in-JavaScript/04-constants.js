@@ -1,4 +1,4 @@
-// Topic 04: Constants
+// Topic 04: Constants 
 // Constants can not be changed
 
 // Declare constants

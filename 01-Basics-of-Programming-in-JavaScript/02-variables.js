@@ -1,4 +1,4 @@
-// Topic 02: Variables
+// Topic 02: Variables 
 "use strict"; // It will forbid you to make mistakes
  
 // Intro to variables -> Variables can store some information, we can use and change this information later

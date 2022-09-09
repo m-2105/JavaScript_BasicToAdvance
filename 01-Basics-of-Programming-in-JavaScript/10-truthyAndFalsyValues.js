@@ -1,4 +1,4 @@
-// Topic 10: Truthy and Falsy Values
+// Topic 10: Truthy and Falsy Values 
 
 // falsy values (these value always falsify the condition) -> false, "" , null, undefined, 0 
 

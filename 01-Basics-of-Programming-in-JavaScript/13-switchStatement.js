@@ -1,4 +1,4 @@
-// Topic 13: Switch Statement
+// Topic 13: Switch Statement 
 
 let day = 5;
 

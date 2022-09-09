@@ -1,4 +1,4 @@
-// Topic 03: let Keyword
+// Topic 03: let Keyword 
 
 // Declare variable with let keyword
 

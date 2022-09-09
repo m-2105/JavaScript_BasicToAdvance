@@ -1,4 +1,4 @@
-// Topic 14: While loop
+// Topic 14: While loop 
 //coding Principle : dry -> Don't Repeat Yourself
 
 //Print 0-9

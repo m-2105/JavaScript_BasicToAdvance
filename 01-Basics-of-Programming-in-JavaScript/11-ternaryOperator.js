@@ -1,4 +1,4 @@
-// Topic 11: Ternary Operator / Conditional Operator
+// Topic 11: Ternary Operator / Conditional Operator 
 
 // using If condition
 let age = 14;

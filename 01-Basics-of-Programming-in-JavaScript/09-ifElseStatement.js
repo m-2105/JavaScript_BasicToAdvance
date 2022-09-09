@@ -1,4 +1,4 @@
-// Topic 09: If else Statement
+// Topic 09: If else Statement 
 let age = 14;
 if (age > 18) {
     console.log("User can play games");

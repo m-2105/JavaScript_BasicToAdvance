@@ -1,4 +1,4 @@
-// Topic 07: String Concatenation
+// Topic 07: String Concatenation 
 
 // Simple String Concatenation
 let firstName = "Muqaddas";
