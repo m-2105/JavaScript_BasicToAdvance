@@ -1,6 +1,6 @@
 // Topic 06: DataTypes 
 
-// Primitive data types
+// Primitive data types -> Immutable
 // 1. string
 // 2. number
 // 3. boolean
@@ -8,6 +8,8 @@
 // 5. null
 // 6. bigInt
 // 7. symbol
+
+//Reference Data Types -> Check file not 18-Arrays
 
 // typeof Operator
 // 1.string datatype
@@ -40,7 +42,6 @@ console.log("Type of myNumber2:", typeof myNumber2);
 let myNumber3 = 24;
 // console.log(myNumber1 + myNumber3); // throws an error: you can't mix bigint with other types, use explicit conversion
 console.log(myNumber1 + myNumber2);
-
 
 // 7. symbol
 
