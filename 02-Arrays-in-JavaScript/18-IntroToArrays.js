@@ -14,23 +14,6 @@ console.log(fruits.length); // returns numbers of element in array
 var number = [1, 2, 3, 4, 5, 6];
 console.log(number);
 
-// Create an array using const
-// const fruits3 
-const fruits3 = ["apple", "mango"];
-// we can add new item to fruits3 as it does not hold element itself, 
-// it holds the heap memory address where the elements of array are stored i.e. 0x11
-fruits3.push("banana");
-// heap memory ["apple", "mango"] 0x11 -> heap memory ["apple", "mango", "banana"] 0x11
-console.log(fruits3);
-// fruits3 = ["grapes", "pineapple"] //can't modify const itself
-
-// for loop in array
-const fruits2 = [];
-for (let i = 0; i < fruits.length; i++) {
-    console.log(fruits[i].toUpperCase());
-    fruits2.push(fruits[i].toUpperCase()); // adds new items to the end of an array
-}
-
 // Mixed Datatypes
 let mixed = [1, 2, 3, 'apple', 'mango', null, true, undefined];
 console.log(mixed);
