@@ -36,3 +36,7 @@ console.log("array8", array8);
 
 let array9 = array1.slice(0).concat(['item3', 'item4', 'item5']);
 console.log("array9", array9);
+
+// spread operator with string
+const newArray = [..."abc"]
+console.log(newArray)
