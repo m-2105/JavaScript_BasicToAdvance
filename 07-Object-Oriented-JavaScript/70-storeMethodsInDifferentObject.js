@@ -13,6 +13,7 @@ const userMethods = {
 }
 
 function CreateUser(firstName, lastName, email, age, address) {
+    //const user = Object.create(userMethods);// Set userMethods as a __proto__ property of user 
     const user = {};
     user.firstName = firstName;
     user.lastName = lastName;
