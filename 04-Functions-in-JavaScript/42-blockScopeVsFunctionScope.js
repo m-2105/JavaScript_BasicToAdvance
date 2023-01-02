@@ -19,7 +19,7 @@ function myApp() {
     }
     if(true){
         console.log(age); // only possible when variable is declared using var
-    }age
+    }
     console.log(age);
 }
 
