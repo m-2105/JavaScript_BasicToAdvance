@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* General Styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+body {
+    font-family: "Merriweather";
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+/* Header Styling */
+.header {
+    position: relative;
+    /*viewport height [vh]*/
+    min-height: 50vh;
+    background: url("./bgImage.jpg");
+    /* background-image: linear-gradient(to bottom right, #C8E3D4, #96C7C1);
+    background-image: linear-gradient(to bottom right, #FFE3E9, #96C7C1);
+    background-position: center;
+    background-repeat: no-repeat;*/
+    color: white;
+}
+
+/* Navbar Styling */
+.nav {
+    min-height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+/* Headline Styling */
+.headline {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.btn-headline {
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/* Todo Styling */
+.section-todo {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.form-todo {
+    margin-top: 1rem;
+    min-height: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-todo input {
+    min-height: 100%;
+}
+
+.form-todo input[type="text"] {
+    border-color: rgba(0, 0, 0, 0.2);
+    width: 79%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-todo input[type="submit"] {
+    background-image: linear-gradient(to bottom right, #142721, #62766d);
+    width: 20%;
+    color: white;
+    font-weight: bold;
+}
+
+/*  SignUp form Styling */
+.section-signUp {
+    margin: 5rem auto;
+    text-align: center;
+    background-image: linear-gradient(to top left, #62766dfb, #62766d5b);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.form-signUp {
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    margin: auto;
+}
+
+.form-signUp label {
+    display: block;
+}
+
+.form-signUp input {
+    display: block;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-signUp textarea {
+    display: block;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 0.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-width: 0.15rem;
+}
+
+.btn-submitForm {
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    display: flex;
+    margin-left: auto;
+}

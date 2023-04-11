@@ -4,13 +4,13 @@ const birthdayWish = function () {
     console.log(`Happy Birthday to you`)
 }
 
+birthdayWish();
 const sumTwoNumbers = function (num1, num2) {
     let sum = num1 + num2;
     //  console.log(`sum of ${num1} and ${num2} is ${sum}`);
     return sum;
 }
 
-birthdayWish();
 let sum = sumTwoNumbers(5, 8);
 console.log(sum);
 
