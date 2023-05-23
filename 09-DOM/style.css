@@ -42,9 +42,11 @@ a {
     min-height: 50vh;
     background: url("./bgImage.jpg");
     /* background-image: linear-gradient(to bottom right, #C8E3D4, #96C7C1);
-    background-image: linear-gradient(to bottom right, #FFE3E9, #96C7C1);
+    background-image: linear-gradient(to bottom right, #FFE3E9, #96C7C1); */
+    /* background-color: #000; */
     background-position: center;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
@@ -112,6 +114,22 @@ a {
     font-weight: bold;
 }
 
+.todo-list {
+    margin-top: 0.5rem;
+    text-align: left;
+    font-size: 1.0rem;
+    list-style-type: none;
+}
+
+.todo-list li {
+    padding: 0.7rem;
+    background: linear-gradient(to top left, #62766dfb, #62766d5b);
+    color: #142721;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+}
+
 /*  SignUp form Styling */
 .section-signUp {
     margin: 5rem auto;
@@ -159,4 +177,10 @@ a {
     font-weight: 600;
     display: flex;
     margin-left: auto;
+}
+
+/* dark background */
+.bg-dark {
+    background-color: #000;
+    color: #fff;
 }

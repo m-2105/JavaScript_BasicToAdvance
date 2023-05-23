@@ -28,8 +28,8 @@
 // <script src="./asyncAndDefer.js" async></script>
 
 // Browser Behavior if we link JS File in head tag with a property 'defer'
-// 1. HTML Parse and JS Load Simultaneously
-// 2. JS Execute (can through error as HTML is not fully parsed)
+// 1. HTML Parse and JS Load Simultaneously (Completely )
+// 2. JS Execute
 // <script src="./asyncAndDefer.js" defer></script>
 
 console.log(window.document);  // window.document === document
